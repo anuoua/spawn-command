@@ -1,18 +1,19 @@
 {
-  "name": "spawn-command",
-  "author": "Maciej Małecki <me@mmalecki.com>",
+  "name": "spawn-command-npm",
+  "author": "anuoua",
   "description": "Spawn commands like `child_process.exec` does but return a `ChildProcess`",
-  "version": "0.0.2-1",
-  "main": "./lib/spawn-command",
+  "version": "0.0.3",
+  "main": "./lib/spawn-command-npm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmalecki/spawn-command"
+    "url": "https://github.com/anuoua/spawn-command-npm"
   },
   "scripts": {
-    "test": "node test/spawn-command-test.js"
+    "test": "node test/spawn-command-npm-test.js"
   },
-  "devDependencies": {
-    "assert-called": "0.1.x"
-  },
-  "license": "MIT"
+  "devDependencies": {},
+  "license": "MIT",
+  "dependencies": {
+    "npm-path": "^2.0.3"
+  }
 }

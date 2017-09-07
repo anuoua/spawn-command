@@ -1,4 +1,4 @@
-# spawn-command-npm [![Build Status](https://secure.travis-ci.org/mmalecki/spawn-command.png)](http://travis-ci.org/mmalecki/spawn-command)
+# spawn-command-npm [![Build Status](https://secure.travis-ci.org/anuoua/spawn-command-npm.png)](http://travis-ci.org/anuoua/spawn-command-npm)
 Spawn commands like `child_process.exec` does but return a `ChildProcess`.
 Add local modules path to child_process that you can execute commands in `node_modules/.bin/`
 
