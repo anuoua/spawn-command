@@ -1,15 +1,15 @@
 {
-  "name": "spawn-command-npm",
+  "name": "spawn-run",
   "author": "anuoua",
-  "description": "Spawn commands like `child_process.exec` does but return a `ChildProcess`",
+  "description": "run commands in node_modules/.bin",
   "version": "0.0.3",
-  "main": "./lib/spawn-command-npm",
+  "main": "./lib/spawn-run.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anuoua/spawn-command-npm"
+    "url": "https://github.com/anuoua/spawn-run"
   },
   "scripts": {
-    "test": "node test/spawn-command-npm-test.js"
+    "test": "node test/spawn-run-test.js"
   },
   "devDependencies": {},
   "license": "MIT",
