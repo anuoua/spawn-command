@@ -1,4 +1,4 @@
-# spawn-run [![Build Status](https://secure.travis-ci.org/anuoua/spawn-command-npm.png)](http://travis-ci.org/anuoua/spawn-command-npm)
+# spawn-run [![Build Status](https://secure.travis-ci.org/anuoua/spawn-command-npm.png)](https://travis-ci.org/anuoua/spawn-run.svg?branch=master)
 
 You can execute commands in `node_modules/.bin/` like npm run, return child_process.
 
