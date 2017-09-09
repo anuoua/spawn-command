@@ -2,7 +2,7 @@
   "name": "spawn-run",
   "author": "anuoua",
   "description": "run commands in node_modules/.bin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/spawn-run.js",
   "repository": {
     "type": "git",
