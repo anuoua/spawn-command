@@ -7,9 +7,19 @@ You can execute commands in `node_modules/.bin/` like npm run, return child_proc
     npm install spawn-run --dev-save
 
 ## Usage
+
 ```js
-var spawnRun = require('spawn-run'),
-    child = spawnRun('echo "Hello spawn" | base64');
+var spawnRun = require('spawn-run')
+var child = spawnRun(command, [options])
+```
+
+`command` like exec, and `options` like [child_process.spawn](https://nodejs.org/dist/latest-v6.x/docs/api/child_process.html#child_process_child_process_spawn_command_args_options), return `child_process`
+
+## Example
+
+```js
+var spawnRun = require('spawn-run');
+var child = spawnRun('echo "Hello spawn" | base64');
 
 child.stdout.on('data', function (data) {
   console.log('data', data);
