@@ -4,7 +4,7 @@ You can execute commands in `node_modules/.bin/` like npm run, return child_proc
 
 ## Installation
 
-    npm install spawn-run --dev-save
+    npm install spawn-run --save-dev
 
 ## Usage
 
